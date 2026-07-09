@@ -2,10 +2,7 @@ import { AudioWaveform } from "lucide-react";
 
 export function Hero() {
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-slate-950 pt-16">
-      {/* Grid Background */}
-      <div className="absolute inset-0 w-full h-full bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px]"></div>
-
+    <div className="relative min-h-[calc(100vh-64px)] flex items-center justify-center pt-16">
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-slate-900 border-2 border-slate-700 p-8 md:p-12 rounded shadow-2xl">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-teal-900/30 border border-teal-700/50 mb-8">
           <span className="flex h-2 w-2 rounded-full bg-teal-500 shadow-[0_0_8px_rgba(20,184,166,0.8)]"></span>
