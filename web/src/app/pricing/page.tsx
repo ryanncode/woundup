@@ -5,9 +5,12 @@ export default function Pricing() {
         <h1 className="text-3xl md:text-5xl font-black text-slate-100 tracking-tight mb-4 uppercase">
           System <span className="text-teal-500">Access</span>
         </h1>
-        <p className="text-slate-400 text-lg">
+        <p className="text-slate-400 text-lg mb-4">
           Select your operational tier for the Wound Up streaming platform.
         </p>
+        <div className="inline-block bg-teal-500/10 border border-teal-500/30 text-teal-400 text-sm font-bold uppercase tracking-widest px-4 py-2 rounded">
+          Pricing To Be Announced
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
