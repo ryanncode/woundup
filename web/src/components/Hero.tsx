@@ -11,12 +11,12 @@ export function Hero() {
         </div>
         
         <h1 className="text-4xl md:text-6xl font-black text-white tracking-tight mb-6 uppercase leading-tight">
-          The perfect next mix,<br />
-          <span className="text-teal-500">Mathematically queued.</span>
+          The next mix,<br />
+          <span className="text-teal-500">Seamlessly queued.</span>
         </h1>
         
         <p className="text-sm md:text-base text-slate-400 mb-10 max-w-2xl mx-auto font-mono leading-relaxed">
-          Wound Up uses semantic embeddings and high-speed vector search to analyze the structural trajectory of DJ sets, autonomously queuing the ideal next stream to maintain seamless, continuous playback.
+          Wound Up uses semantic AI and vector search to analyze the sound and trajectory of recorded DJ sets, automatically pulling up the exact right stream so the music never stops.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
