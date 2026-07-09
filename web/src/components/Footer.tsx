@@ -15,8 +15,8 @@ export function Footer() {
                 Wound<span className="text-teal-500">Up</span>
               </span>
             </div>
-            <p className="text-slate-400 max-w-sm">
-              The next generation of algorithmic DJ streaming. Continuous, autonomous, and perfectly mixed music for any vibe.
+            <p className="text-slate-400 text-sm leading-relaxed mb-6 font-mono">
+              The autonomous broadcasting engine for recorded DJ sets. Continuous, intelligent routing for any mood.
             </p>
           </div>
           

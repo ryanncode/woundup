@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wound Up | Autonomous DJ Streaming",
-  description: "The next generation of algorithmic DJ streaming.",
+  title: "Wound Up Here",
+  description: "The autonomous broadcasting engine for recorded DJ sets.",
 };
 
 export default function RootLayout({
