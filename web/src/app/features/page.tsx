@@ -6,7 +6,7 @@ export default function Features() {
           Wound Up <span className="text-teal-500">Platform</span>
         </h1>
         <p className="text-slate-400 font-mono text-lg">
-          The upcoming algorithmic broadcasting system.
+          The autonomous mix discovery and streaming engine.
         </p>
       </div>
 
@@ -15,9 +15,9 @@ export default function Features() {
           <div className="w-10 h-10 bg-teal-900/50 border border-teal-500 rounded flex items-center justify-center mb-4 text-teal-400 font-bold">
             01
           </div>
-          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Continuous Mix Generation</h3>
-          <p className="text-slate-400 text-sm">
-            Dynamically generated playlists that transition seamlessly using beat-matched crossfading, maintaining energy and flow indefinitely.
+          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Semantic Vibe Matching</h3>
+          <p className="text-slate-400 text-sm leading-relaxed">
+            Wound Up leverages the Gemini 2.0 embedding model to deeply understand the mood, energy, and genre descriptions of recorded DJ sets, mapping them into high-dimensional vectors.
           </p>
         </div>
 
@@ -25,9 +25,9 @@ export default function Features() {
           <div className="w-10 h-10 bg-teal-900/50 border border-teal-500 rounded flex items-center justify-center mb-4 text-teal-400 font-bold">
             02
           </div>
-          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Vici DSP Engine</h3>
-          <p className="text-slate-400 text-sm">
-            High-performance WebAssembly digital signal processing for real-time EQs, filters, and track manipulation right in the browser.
+          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Vector Search Engine</h3>
+          <p className="text-slate-400 text-sm leading-relaxed">
+            Powered by Typesense, our platform performs sub-millisecond nearest-neighbor searches to instantly pull up the mathematically perfect next mix based on current room energy.
           </p>
         </div>
 
@@ -35,9 +35,9 @@ export default function Features() {
           <div className="w-10 h-10 bg-teal-900/50 border border-teal-500 rounded flex items-center justify-center mb-4 text-teal-400 font-bold">
             03
           </div>
-          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Algorithmic Curation</h3>
-          <p className="text-slate-400 text-sm">
-            Advanced track selection algorithms that read the room's requested vibe and dynamically adjust the queue to match the desired mood.
+          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Endless Auto-Shuffle</h3>
+          <p className="text-slate-400 text-sm leading-relaxed">
+            Stop worrying about the music stopping. As one recorded stream ends, Wound Up automatically routes you to the next semantically matched set, keeping the flow going endlessly.
           </p>
         </div>
 
@@ -45,9 +45,9 @@ export default function Features() {
           <div className="w-10 h-10 bg-slate-800 border border-slate-600 rounded flex items-center justify-center mb-4 text-slate-500 font-bold">
             04
           </div>
-          <h3 className="text-xl font-bold text-slate-300 mb-2 uppercase tracking-wide">Collaborative Queues <span className="text-[10px] text-teal-500 bg-teal-900/30 px-2 py-0.5 rounded ml-2 border border-teal-500/50">COMING SOON</span></h3>
-          <p className="text-slate-500 text-sm">
-            Allow your audience to vote on upcoming tracks, with the engine automatically integrating top requests into the active mix.
+          <h3 className="text-xl font-bold text-slate-300 mb-2 uppercase tracking-wide">Curator Analytics <span className="text-[10px] text-teal-500 bg-teal-900/30 px-2 py-0.5 rounded ml-2 border border-teal-500/50">COMING SOON</span></h3>
+          <p className="text-slate-500 text-sm leading-relaxed">
+            Upload your own recorded sets and see exactly where they fall in the global embedding space to reach listeners seeking your specific sound.
           </p>
         </div>
       </div>

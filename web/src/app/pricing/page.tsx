@@ -16,10 +16,10 @@ export default function Pricing() {
           <h3 className="text-xl font-bold text-slate-300 mb-2 uppercase">Listener</h3>
           <div className="text-3xl font-black text-slate-100 mb-6">$0<span className="text-sm font-normal text-slate-500">/mo</span></div>
           <ul className="space-y-4 mb-8 text-sm text-slate-400 flex-1">
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Listen to live autonomous streams</li>
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Participate in queue voting</li>
-            <li className="flex items-center gap-2 text-slate-600"><span className="font-bold">×</span> Broadcast own streams</li>
-            <li className="flex items-center gap-2 text-slate-600"><span className="font-bold">×</span> Vici Engine Access</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Listen to algorithmic stations</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Upvote sets and vibe tags</li>
+            <li className="flex items-center gap-2 text-slate-600"><span className="font-bold">×</span> Submit own recorded sets</li>
+            <li className="flex items-center gap-2 text-slate-600"><span className="font-bold">×</span> View embedding analytics</li>
           </ul>
           <button className="w-full py-3 text-sm font-bold uppercase tracking-wider text-slate-400 bg-slate-800 border-2 border-slate-700 rounded cursor-not-allowed">
             Free Default
@@ -31,13 +31,13 @@ export default function Pricing() {
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-teal-600 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded border border-teal-400">
             Recommended
           </div>
-          <h3 className="text-xl font-bold text-teal-400 mb-2 uppercase">Broadcaster</h3>
+          <h3 className="text-xl font-bold text-teal-400 mb-2 uppercase">Curator</h3>
           <div className="text-3xl font-black text-white mb-6">$10<span className="text-sm font-normal text-slate-500">/mo</span></div>
           <ul className="space-y-4 mb-8 text-sm text-slate-300 flex-1">
             <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Everything in Listener</li>
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Host autonomous live streams</li>
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Upload personal library (100GB)</li>
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Vici Standalone Engine Access</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Submit your recorded mixes</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Detailed semantic vibe analytics</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Priority placement in stations</li>
           </ul>
           <button className="w-full py-3 text-sm font-bold uppercase tracking-wider text-white bg-teal-600 border-2 border-teal-500 rounded hover:bg-teal-500 transition-colors">
             Initialize
@@ -46,12 +46,12 @@ export default function Pricing() {
 
         {/* Tier 3 */}
         <div className="bg-slate-900 border-2 border-slate-700 p-8 rounded shadow-lg flex flex-col">
-          <h3 className="text-xl font-bold text-slate-300 mb-2 uppercase">Enterprise</h3>
+          <h3 className="text-xl font-bold text-slate-300 mb-2 uppercase">Label</h3>
           <div className="text-3xl font-black text-slate-100 mb-6">$40<span className="text-sm font-normal text-slate-500">/mo</span></div>
           <ul className="space-y-4 mb-8 text-sm text-slate-400 flex-1">
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Everything in Broadcaster</li>
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Unlimited library storage</li>
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Custom DSP algorithm injection</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Everything in Curator</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Unlimited roster submissions</li>
+            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Direct RSS feed integration</li>
             <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> White-label embedded player</li>
           </ul>
           <button className="w-full py-3 text-sm font-bold uppercase tracking-wider text-teal-400 bg-slate-900 border-2 border-teal-700 rounded hover:bg-slate-800 transition-colors">

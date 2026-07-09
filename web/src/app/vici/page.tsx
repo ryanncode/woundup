@@ -42,7 +42,7 @@ export default function Vici() {
         <div className="bg-slate-900 border-2 border-slate-700 p-8 rounded shadow-lg">
           <h2 className="text-xl font-bold text-slate-100 uppercase tracking-wide mb-6 border-b border-slate-800 pb-4">Open Source Integration</h2>
           <p className="text-slate-400 text-sm leading-relaxed mb-6">
-            The Vici Engine is the foundational mixing backend for the upcoming Wound Up platform, but it is built and maintained as a standalone, open-source tool. You can integrate the core Vici player into your own web projects today.
+            While Wound Up focuses on intelligent mix discovery and routing, the Vici Engine is built and maintained as a standalone, open-source tool for live in-browser mixing. You can integrate the core Vici player into your own web projects today.
           </p>
           
           <div className="bg-slate-950 p-4 rounded border-2 border-slate-800 overflow-x-auto text-xs font-mono text-teal-400 shadow-inner">
