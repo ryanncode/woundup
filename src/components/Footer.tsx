@@ -23,8 +23,9 @@ export function Footer() {
           <div>
             <h3 className="text-slate-100 font-bold mb-4 uppercase tracking-widest text-xs">Product</h3>
             <ul className="space-y-3">
-              <li><a href="https://dj.woundup.org" className="text-slate-400 hover:text-teal-400 transition-colors">Vici DJ Tool</a></li>
-              <li><Link href="/platform" className="text-slate-400 hover:text-slate-200 transition-colors">Streaming Platform</Link></li>
+              <li><Link href="/woundup" className="text-slate-400 hover:text-slate-200 transition-colors">Wound Up Platform</Link></li>
+              <li><Link href="/vici" className="text-slate-400 hover:text-slate-200 transition-colors">Vici Engine Info</Link></li>
+              <li><a href="https://dj.woundup.org" className="text-slate-400 hover:text-teal-400 transition-colors">Launch Vici App</a></li>
               <li><Link href="/pricing" className="text-slate-400 hover:text-slate-200 transition-colors">Pricing</Link></li>
             </ul>
           </div>

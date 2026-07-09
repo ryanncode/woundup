@@ -1,12 +1,12 @@
 export default function Features() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 mt-16">
-      <div className="mb-12">
+      <div className="mb-12 border-b-2 border-slate-800 pb-8">
         <h1 className="text-3xl md:text-5xl font-black text-slate-100 tracking-tight mb-4 uppercase">
-          System <span className="text-teal-500">Features</span>
+          Wound Up <span className="text-teal-500">Platform</span>
         </h1>
-        <p className="text-slate-400 font-mono text-lg border-l-2 border-teal-500 pl-4">
-          Core capabilities of the Wound Up autonomous streaming engine.
+        <p className="text-slate-400 font-mono text-lg">
+          The upcoming algorithmic broadcasting system.
         </p>
       </div>
 
