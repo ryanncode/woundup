@@ -9,8 +9,12 @@
     "lint": "eslint"
   },
   "overrides": {
-    "@types/react": "$@types/react",
-    "react": "$react"
+    "@vidstack/react": {
+      "react": "^19.2.4",
+      "@types/react": "^19",
+      "react-dom": "^19.2.4",
+      "@types/react-dom": "^19"
+    }
   },
   "dependencies": {
     "@vidstack/react": "^0.6.15",
@@ -29,7 +33,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
-    "@types/react": "$@types/react",
+    "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
