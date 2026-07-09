@@ -32,12 +32,11 @@ export default function Pricing() {
             Recommended
           </div>
           <h3 className="text-xl font-bold text-teal-400 mb-2 uppercase">Curator</h3>
-          <div className="text-3xl font-black text-white mb-6">$10<span className="text-sm font-normal text-slate-500">/mo</span></div>
+          <div className="text-3xl font-black text-white mb-6">$5<span className="text-sm font-normal text-slate-500">/mo</span></div>
           <ul className="space-y-4 mb-8 text-sm text-slate-300 flex-1">
             <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Everything in Listener</li>
             <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Submit your recorded mixes</li>
             <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Detailed semantic vibe analytics</li>
-            <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Priority placement in stations</li>
           </ul>
           <button className="w-full py-3 text-sm font-bold uppercase tracking-wider text-white bg-teal-600 border-2 border-teal-500 rounded hover:bg-teal-500 transition-colors">
             Initialize
@@ -47,7 +46,7 @@ export default function Pricing() {
         {/* Tier 3 */}
         <div className="bg-slate-900 border-2 border-slate-700 p-8 rounded shadow-lg flex flex-col">
           <h3 className="text-xl font-bold text-slate-300 mb-2 uppercase">Label</h3>
-          <div className="text-3xl font-black text-slate-100 mb-6">$40<span className="text-sm font-normal text-slate-500">/mo</span></div>
+          <div className="text-3xl font-black text-slate-100 mb-6">$10<span className="text-sm font-normal text-slate-500">/mo</span></div>
           <ul className="space-y-4 mb-8 text-sm text-slate-400 flex-1">
             <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Everything in Curator</li>
             <li className="flex items-center gap-2"><span className="text-teal-500 font-bold">✓</span> Unlimited roster submissions</li>
