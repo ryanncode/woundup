@@ -11,13 +11,13 @@ export function Navbar() {
               <Disc3 className="text-white" size={18} />
             </div>
             <span className="font-black text-xl tracking-widest text-slate-100 uppercase mt-0.5">
-              Wound<span className="text-teal-500 group-hover:text-teal-400 transition-colors">Up</span>
+              Wound Up <span className="text-teal-500 group-hover:text-teal-400 transition-colors">Here</span>
             </span>
           </Link>
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-6">
-              <Link href="/features" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Wound Up</Link>
+              <Link href="/features" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Features</Link>
               <Link href="/vici" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Vici Engine</Link>
               <Link href="/pricing" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Pricing</Link>
               <Link href="/about" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">About</Link>

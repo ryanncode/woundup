@@ -40,9 +40,9 @@ export function Footer() {
           </div>
         </div>
         
-        <div className="pt-8 border-t-2 border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-500 text-xs uppercase tracking-wider font-bold">
-            &copy; {new Date().getFullYear()} Wound Up. All rights reserved.
+        <div className="pt-8 border-t-2 border-slate-800 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
+          <p className="mb-4 md:mb-0 uppercase tracking-wider font-bold">
+            &copy; {new Date().getFullYear()} Wound Up Here. All rights reserved.
           </p>
           <div className="flex gap-4">
             <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors">
