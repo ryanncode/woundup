@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: discovery_db
+      POSTGRES_PASSWORD: dbpass1
+    ports:
+      - "5432:5432"
+
+  typesense:
+    image: typesense/typesense:26.0 # 2026 Vector-enabled version
+    environment:
+      TYPESENSE_API_KEY: tk3c58gsj2sd8ha
+      TYPESENSE_DATA_DIR: /data
+    ports:
+      - "8108:8108"
+    volumes:
+      - ./typesense-data:/data
