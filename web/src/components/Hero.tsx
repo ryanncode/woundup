@@ -16,7 +16,7 @@ export function Hero() {
         </h1>
         
         <p className="text-sm md:text-base text-slate-400 mb-10 max-w-2xl mx-auto font-mono leading-relaxed">
-          Wound Up uses semantic embeddings and high-speed vector search to analyze the true vibe of DJ sets, automatically shuffling to the perfect next mix to keep the room moving forever.
+          Wound Up uses semantic embeddings and high-speed vector search to analyze the true vibe of DJ sets, automatically discovering the ideal next stream to keep the energy flowing.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
