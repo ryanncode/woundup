@@ -24,17 +24,17 @@ export function Footer() {
             <h3 className="text-slate-100 font-bold mb-4 uppercase tracking-widest text-xs">Product</h3>
             <ul className="space-y-3">
               <li><a href="https://dj.woundup.org" className="text-slate-400 hover:text-teal-400 transition-colors">Vici DJ Tool</a></li>
-              <li><Link href="#" className="text-slate-400 hover:text-slate-200 transition-colors">Streaming Platform</Link></li>
-              <li><Link href="#" className="text-slate-400 hover:text-slate-200 transition-colors">Pricing</Link></li>
+              <li><Link href="/platform" className="text-slate-400 hover:text-slate-200 transition-colors">Streaming Platform</Link></li>
+              <li><Link href="/pricing" className="text-slate-400 hover:text-slate-200 transition-colors">Pricing</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-slate-100 font-bold mb-4 uppercase tracking-widest text-xs">Legal</h3>
             <ul className="space-y-3">
-              <li><Link href="#" className="text-slate-400 hover:text-slate-200 transition-colors">Privacy Policy</Link></li>
-              <li><Link href="#" className="text-slate-400 hover:text-slate-200 transition-colors">Terms of Service</Link></li>
-              <li><Link href="#" className="text-slate-400 hover:text-slate-200 transition-colors">Contact</Link></li>
+              <li><Link href="/privacy" className="text-slate-400 hover:text-slate-200 transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="text-slate-400 hover:text-slate-200 transition-colors">Terms of Service</Link></li>
+              <li><Link href="/contact" className="text-slate-400 hover:text-slate-200 transition-colors">Contact</Link></li>
             </ul>
           </div>
         </div>
