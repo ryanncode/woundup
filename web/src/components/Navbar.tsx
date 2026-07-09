@@ -10,7 +10,7 @@ export function Navbar() {
             <div className="w-8 h-8 rounded bg-teal-600 flex items-center justify-center border border-teal-500 shadow-inner group-hover:bg-teal-500 transition-colors">
               <Disc3 className="text-white" size={18} />
             </div>
-            <span className="font-black text-xl tracking-widest text-slate-100 uppercase mt-0.5">
+            <span className="font-black text-xl text-slate-100 uppercase mt-0.5">
               Wound Up <span className="text-teal-500 group-hover:text-teal-400 transition-colors">Here</span>
             </span>
           </Link>
