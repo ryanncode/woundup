@@ -6,19 +6,19 @@ export default function About() {
           Project <span className="text-teal-500">Origin</span>
         </h1>
         <p className="text-slate-400 font-mono text-lg uppercase tracking-widest font-bold">
-          Solving the Empty Room Problem
+          The Antidote to Engagement Algorithms
         </p>
       </div>
 
       <div className="bg-slate-900 border-2 border-slate-700 p-8 rounded shadow-lg space-y-6 text-slate-300 leading-relaxed">
         <p>
-          <strong className="text-white">Wound Up</strong> was born from a fundamental frustration in digital broadcasting: what happens when the set ends?
+          <strong className="text-white">Wound Up</strong> was born from a fundamental frustration with modern streaming platforms: the auto-play trap.
         </p>
         <p>
-          While live DJs provide unmatched energy and curation, keeping a stream flowing seamlessly 24/7 is impossible without falling back on disjointed, algorithmically generated single-track playlists. These standard algorithms rely on basic metadata (BPM, genre, popularity) and entirely fail to understand the true <strong className="text-teal-400">vibe</strong> and trajectory of a meticulously crafted hour-long mix.
+          When you finish listening to an incredible, meticulously crafted DJ set on mainstream platforms, their algorithms inevitably hijack your queue. Because they optimize strictly for engagement and popularity, they abandon the underground vibe you were exploring and aggressively route you toward mainstream tracks. They rely on superficial metadata and view counts, completely failing to understand the actual <strong className="text-teal-400">vibe</strong> and trajectory of the mix you just heard.
         </p>
         <p>
-          We set out to build a platform that could intelligently discover and route listeners to the perfect next recorded mix. By leveraging semantic AI embeddings and high-performance vector search, Wound Up mathematically maps the mood of DJ sets, allowing it to autonomously shuffle between mixes and keep the energy alive endlessly.
+          We built Wound Up to solve this. It is a strictly <strong className="text-white">content-based</strong> discovery engine, not a popularity contest. By leveraging semantic AI embeddings and high-performance vector search, Wound Up maps the exact mood and sound of a recorded mix. When your set ends, it seamlessly queues up another mix that shares that exact same sonic profile, allowing you to listen to a curated string of similar sets without ever breaking the vibe or falling into an endless, dull stream of background noise.
         </p>
         
         <div className="pt-6 border-t border-slate-800 mt-8">

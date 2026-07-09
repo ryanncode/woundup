@@ -48,9 +48,9 @@ export default function Features() {
           <div className="w-10 h-10 bg-teal-900/50 border border-teal-500 rounded flex items-center justify-center mb-4 text-teal-400 font-bold">
             03
           </div>
-          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Endless Auto-Shuffle</h3>
+          <h3 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-wide">Content-Based Auto-Queue</h3>
           <p className="text-slate-400 text-sm leading-relaxed">
-            Stop worrying about the music stopping. As one recorded stream ends, Wound Up automatically routes you to the next semantically matched set, keeping the flow going endlessly.
+            Escape the engagement algorithm trap. When a recorded stream ends, Wound Up automatically queues the next semantically matched set, preserving the exact vibe rather than forcing popularity-based recommendations.
           </p>
         </div>
 
