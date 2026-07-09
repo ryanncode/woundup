@@ -17,7 +17,7 @@ export function Navbar() {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-6">
-              <Link href="/woundup" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Wound Up</Link>
+              <Link href="/features" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Wound Up</Link>
               <Link href="/vici" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Vici Engine</Link>
               <Link href="/pricing" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">Pricing</Link>
               <Link href="/about" className="text-slate-400 hover:text-white px-3 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">About</Link>
