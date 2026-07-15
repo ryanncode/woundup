@@ -4,14 +4,14 @@ services:
     image: postgres:16
     environment:
       POSTGRES_DB: discovery_db
-      POSTGRES_PASSWORD: dbpass1
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports:
       - "5432:5432"
 
   typesense:
     image: typesense/typesense:26.0 # 2026 Vector-enabled version
     environment:
-      TYPESENSE_API_KEY: tk3c58gsj2sd8ha
+      TYPESENSE_API_KEY: ${TYPESENSE_API_KEY}
       TYPESENSE_DATA_DIR: /data
     ports:
       - "8108:8108"

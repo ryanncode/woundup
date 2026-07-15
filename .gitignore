@@ -1,0 +1,18 @@
+# Environments
+.env
+.env.local
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database and Data
+typesense-data/
+
+# Mac OS
+.DS_Store
